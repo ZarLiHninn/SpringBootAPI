@@ -1,5 +1,5 @@
 ## SpringBootAPIの使い方手順
-1. git cloneでクロオンしてください。
+1. git cloneでクロオンしてくだ
 2. UserData-dbのファイルをmysqlにインポートしてください。
 3. mvn installで実行してください。
 4. java -jar ec2demo0.0.1-SNAPSHOT.jarを実行してください。
