@@ -20,7 +20,7 @@ public class ApiController {
 		return "Hello World";
 	}
 	
-	@GetMapping("/userlist")
+	@GetMapping("/users")
 	public List<User> getUsers() {
 		return userRepository.findAll();
 	}
