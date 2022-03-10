@@ -1,12 +1,15 @@
 package com.ec2sample.app.ec2demo.model;
 
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
+import lombok.Data;
+import org.springframework.data.relational.core.mapping.Table;
 
-@Entity
+@Data
+@Table("user")
 public class User {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
 	@Column
