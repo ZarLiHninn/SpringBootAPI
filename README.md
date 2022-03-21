@@ -1,6 +1,9 @@
 ## SpringBootAPIの使い方手順
 1. git cloneでクローンしてください。
-2. UserData-dbのファイルをmysqlにインポートしてください。
+2. APIのデータがあるdockerを以下のコマンドでスタートしてください。
+```
+ docker-compose up -d
+```
 3. mvn installで実行してください。
 4. java -jar ec2demo0.0.1-SNAPSHOT.jarを実行してください。
 5. localhost:8080/userListで実行してください。
