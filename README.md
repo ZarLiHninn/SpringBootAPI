@@ -3,7 +3,10 @@
    ```
    git clone https://github.com/ZarLiHninn/SpringBootAPI.git
    ```
-2. UserData-dbのファイルをmysqlにインポートしてください。
+2. APIのデータがあるDockerを以下のコマンドでスタートしてください。
+   ```
+   docker-compose up -d
+   ```
 3. 以下のコマンドで実行してください。
    ```
    ./mvnw spring-boot:run
